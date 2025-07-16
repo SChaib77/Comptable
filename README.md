@@ -8,6 +8,7 @@ Ce dépôt contient un exemple d'application web en HTML/CSS/JavaScript pour la 
 - Recherche dynamique dans la liste des spécialités
 - Formulaire de contact avec validation et stockage local des messages
 - Raccourci clavier `d` pour changer de thème
+- Section Blog avec six articles exemples
 
 ## Utilisation
 Ouvrez le fichier `Main` dans un navigateur moderne. Aucun serveur n'est nécessaire.

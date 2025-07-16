@@ -38,6 +38,11 @@
         #status { margin-top:1rem; min-height:1.2rem; }
         .success { color:green; }
         .error { color:red; }
+        .articles { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1rem; }
+        .articles article { background:var(--background); border:1px solid #ccc; border-radius:4px; padding:1rem; box-shadow:0 2px 4px rgba(0,0,0,0.1); }
+        .articles h3 { margin-top:0; font-size:1.1rem; }
+        .articles a { color:var(--secondary); text-decoration:none; }
+        .articles a:hover { text-decoration:underline; }
         footer { background:var(--primary); color:#fff; text-align:center; padding:1rem; }
         @media (max-width:600px){
             .nav-toggle { display:block; }
@@ -54,6 +59,7 @@
         <ul class="nav-menu">
             <li><a href="#services">Services</a></li>
             <li><a href="#about">À propos</a></li>
+            <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -68,6 +74,41 @@
         <li>Audit</li>
         <li>Paie</li>
     </ul>
+</section>
+<section id="blog">
+    <h2>Blog</h2>
+    <div class="articles">
+        <article>
+            <h3>Les obligations comptables de l'entrepreneur</h3>
+            <p>Un aperçu des principales échéances et documents à tenir à jour.</p>
+            <a href="#">Lire la suite</a>
+        </article>
+        <article>
+            <h3>Optimiser votre fiscalité en 5 étapes</h3>
+            <p>Conseils pour réduire légalement votre charge fiscale.</p>
+            <a href="#">Lire la suite</a>
+        </article>
+        <article>
+            <h3>Choisir son statut juridique</h3>
+            <p>Auto-entrepreneur, SAS, SARL... quel régime est fait pour vous&nbsp;?</p>
+            <a href="#">Lire la suite</a>
+        </article>
+        <article>
+            <h3>Pourquoi externaliser sa paie&nbsp;?</h3>
+            <p>Les bénéfices d'une gestion de paie déléguée à des experts.</p>
+            <a href="#">Lire la suite</a>
+        </article>
+        <article>
+            <h3>Anticiper un contrôle fiscal</h3>
+            <p>Préparez sereinement la visite de l'administration.</p>
+            <a href="#">Lire la suite</a>
+        </article>
+        <article>
+            <h3>Les nouveautés comptables 2025</h3>
+            <p>Tour d'horizon des changements à venir cette année.</p>
+            <a href="#">Lire la suite</a>
+        </article>
+    </div>
 </section>
 <section id="about">
     <h2>Le Cabinet</h2>
